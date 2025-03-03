@@ -1,0 +1,46 @@
+.gallery {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+    width: 800px;
+    height: 200px;
+}
+
+.image-container {
+    position: relative;
+    
+}
+
+.image-container img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: none;
+
+}
+
+.image-container img.active {
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(25, 25, 25, 2);
+}
+/* .image-container img.active:hover{
+    transform: scale(1.1);
+} */
+.navigation {
+    margin-top: 20px;
+}
+
+.prev, .next {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: grey;
+}
+
+.prev:hover, .next:hover {
+    background-color: red;
+}
+
